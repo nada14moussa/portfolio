@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a name="topOfThePage"></a>
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">My skills</a></li>
+            <li><a href="#contactMe">Contact me</a></li>
+        </nav>
+    </header>
+    <main>
+        <a name="home"></a>
+        <h1> Nada MOUSSA</h1>
+        <h3> Full stack developer </h3>
+        <section class="container" >
+
+            <div class="sect" id="about">
+                <a name="about"></a>
+                <h2> About me:</h2>
+                <img src="avatar.png" alt="photo" width=210px height=200px>
+                <ul style="list-style-type:disc">
+                    <li> Full name: Nada MOUSSA</li>
+                    <li> Phone number: 12345678 </li>
+                    <li> Adress: Ariana </li>
+                    <li> Age:25 </li>
+                </ul>
+            </div>
+            <div class="sect" id="skills">
+                <a name="skills"></a>
+                <h2> My skills :</h2>
+                <p> I am a full stack web developer i can develop both client and server software.
+                    In addition to mastering HTML and CSS, i also knows how to:
+                <ul style="list-style-type:disc;">
+                    <li>Program a browser (using JavaScript, jQuery, Angular, and Vue)
+                    </li>
+                    <li>Program a server (using PHP, ASP, Python, and Node)
+                    </li>
+                    <li> Program a database (using SQL, SQLite, and MongoDB)
+                    </li>
+                </ul>
+                </p>
+                <iframe src=" https://youtube.com/embed/UtDpYVf9jKU" width="400px" height="220px"></iframe>
+            </div>
+            <div class="sect" id="contactMe">
+                <a name="contactMe"></a>
+                <h2>Contact me:</h2>
+                <form>
+                    <label>Full name:</label>
+                    <input type="text" /><br>
+                    <label>Birthday:</label>
+                    <input type="date" /><br>
+                    <label>Your phone number:</label>
+                    <input type="number" /><br>
+                    <label>Your email:</label>
+                    <input type="email" /><br>
+                    <label> Please select your status</label>
+                    <select>
+                        <option>Client</option>
+                        <option>Societ</option>
+                        <option>Just visitor</option>
+                    </select><br>
+                    <label for="input1">It's intresting</label>
+                    <input type="checkbox" id="input1" />
+                    <label for="input2">I'm not intrested</label>
+                    <input type="checkbox" id="input2" /><br>
+                    <label>Your message:</label><br>
+                    <textarea cols="30" rows="5">Type your message here
+                </textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <a href="#topOfThePage"> Go to the top of the page </a>
+    </main>
+    <hr>
+    <footer>
+        <p> all rights are reserved.</p>
+    </footer>
+</body>
+
+</html>
